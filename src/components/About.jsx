@@ -47,8 +47,6 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        {/* I specialize in React, Next.js, JavaScript, TypeScript, GraphQL, Node.js, WordPress, HTML, and CSS. */}
-
         Welcome to my portfolio! With 5 years of industry experience as a web developer, I specialize in crafting exceptional web solutions that leave a lasting impression. Throughout my career, I have had the opportunity to work with a diverse range of clients and industries, from startups to established businesses.
         <br /><br />
         I am passionate about translating your ideas into reality by creating responsive and user-friendly web applications. My goal is to not only meet your expectations but to exceed them by delivering high-quality work that showcases your brand and engages your target audience.
