@@ -5,7 +5,7 @@ import { ComputersCanvas } from './canvas';
 
 const Hero = () => {
   return (
-    <section className=" relative w-full h-screen mx-auto">
+    <section className=" relative w-full h-screen mx-auto max-768">
       <div className={`${styles.paddingX} absolute inset-0 top-[120px] max-w-7xl mx-auto flex flex-row items-start gap-5`}>
         <div className="flex flex-col justify-center items-center mt-5">
           <div className="w-5 h-5 rounded-full bg-[#38DB77]" />
@@ -21,7 +21,7 @@ const Hero = () => {
             <span className='font-medium'>
               Experienced Web Developer <br />
               with 5 years of industry experience
-              </span>
+            </span>
             <h2 className='text-4xl font-bold mt-5 text-[#38DB77]'>
               I build things for web.
             </h2>

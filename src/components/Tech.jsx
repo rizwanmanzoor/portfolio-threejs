@@ -10,7 +10,7 @@ import { technologies } from "../constants";
 const Tech = () => {
   
   return (
-    <>
+    <div className="max-768">
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>Skills</p>
         <h2 className={styles.sectionHeadText}>Expertise.</h2>
@@ -23,7 +23,7 @@ const Tech = () => {
           </div>
         ))}
       </div>
-    </>
+    </div>
   );
 };
 
