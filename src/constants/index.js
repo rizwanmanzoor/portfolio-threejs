@@ -98,7 +98,7 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Frontend Developer",
+    title: "Software Engineer",
     company_name: "Kwanso",
     icon: kwanso,
     iconBg: "#E6DEDD",
@@ -113,7 +113,7 @@ const experiences = [
     ],
   },
   {
-    title: "Team Lead Frontend Developer",
+    title: "Team Lead",
     company_name: "Creative Croods",
     icon: creativecroods,
     iconBg: "#E6DEDD",
@@ -147,7 +147,7 @@ const testimonials = [
   {
     testimonial:
       "I thought it was impossible to make a website as beautiful as our product, but Rizwan proved me wrong.",
-    name: "Sara Lee",
+    name: "Sara",
     designation: "CFO",
     company: "",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
@@ -155,7 +155,7 @@ const testimonials = [
   {
     testimonial:
       "I've never met a web developer who truly cares about their clients' success like Rizwan does.",
-    name: "Chris Brown",
+    name: "Chris",
     designation: "COO",
     company: "",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
@@ -163,7 +163,7 @@ const testimonials = [
   {
     testimonial:
       "After Rizwan optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
+    name: "Lisa",
     designation: "CTO",
     company: "",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
@@ -193,20 +193,20 @@ const projects = [
     source_code_link: "",
   },
   {
-    name: "Job Hiring",
+    name: "Job Portal",
     description:
       "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
     tags: [
       {
-        name: "react",
+        name: "laravel",
         color: "blue-text-gradient",
       },
       {
-        name: "nestjs",
+        name: "mysql",
         color: "green-text-gradient",
       },
       {
-        name: "reactstrap",
+        name: "bootstrap",
         color: "pink-text-gradient",
       },
     ],
