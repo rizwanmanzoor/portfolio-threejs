@@ -1,6 +1,6 @@
 import React from 'react';
 import { styles } from '../styles';
-import { githubIcon, linkedinIcon, whatsappIcon, gmailIcon } from "../assets";
+import { linkedinIcon, whatsappIcon, gmailIcon } from "../assets";
 
 
 const Footer = () => {
@@ -16,11 +16,11 @@ const Footer = () => {
         <p>© Copyright <span id="year">{year}</span> - Rizwan Manzoor</p>
         <ul className="flex items-center gap-x-6 gap-y-2">
           <li className='w-12'>
-            <a href="https://github.com/rizwanmanzoor" target="_blank" title="github">
+            <a href="mailto:rizwanmanzoor200@gmail.com" target="_blank" title="gmail">
               <img
-                src={githubIcon}
-                alt='github'
-                className='w-full h-full bg-white object-cover rounded-2xl'
+                src={gmailIcon}
+                alt='gmail'
+                className='w-full h-full'
               />
             </a>
           </li>
@@ -29,7 +29,7 @@ const Footer = () => {
               <img
                 src={linkedinIcon}
                 alt='github'
-                className='w-full h-full bg-white object-cover rounded-2xl'
+                className='w-full h-full'
               />
             </a>
           </li>
@@ -38,7 +38,7 @@ const Footer = () => {
               <img
                 src={whatsappIcon}
                 alt='whatsapp'
-                className='w-full h-full bg-white object-cover rounded-2xl'
+                className='w-full h-full'
               />
             </a>
           </li>
