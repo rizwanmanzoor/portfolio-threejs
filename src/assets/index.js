@@ -29,7 +29,6 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import emr from "./emr.png";
 
-import githubIcon from "./icon/github.svg";
 import linkedinIcon from "./icon/linkedin.svg";
 import whatsappIcon from "./icon/whatsapp.svg";
 import gmailIcon from "./icon/gmail.svg";
@@ -62,7 +61,6 @@ export {
   carrent,
   jobit,
   emr,
-  githubIcon,
   linkedinIcon,
   whatsappIcon,
   gmailIcon
