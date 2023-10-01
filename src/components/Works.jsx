@@ -81,9 +81,8 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
         >
-          Following projects showcases my skills and experience through
-          real-world examples of my work. I have worked with different technologies,
-          and manage projects effectively. 
+          The following projects demonstrate my recent experience and skills through real-world examples of my work. I have recently worked with various technologies and effectively managed projects. <br />
+          I have worked on various websites, utilizing technologies such as WordPress, Bootstrap, React, and Next.js. Additionally, I have effectively managed projects.
         </motion.p>
       </div>
 
